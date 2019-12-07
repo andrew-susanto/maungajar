@@ -1,0 +1,118 @@
+.nav-item{
+    color:#e6e6e6!important;
+}
+.dropdown-menu a{
+    color:#e6e6e6!important;
+}
+.dropdown-menu a:hover{
+    color:black!important;
+}
+.card{
+    box-shadow:0 ;
+    border-style:solid;
+    border-width:1px;
+    border-color:#616161;
+}
+.card-text{
+    color:#8e8e8e;
+}
+ul.stepper li.active a .circle{
+    background-color:#e6e6e6!important;
+    color:black!important;
+}
+ul.stepper li a .label{
+    color:#e6e6e6!important;
+}
+
+ul.stepper li a .circle{
+    background-color:#8e8e8e!important;
+    color:black!important;
+}
+
+.stepper-horizontal li:not(:first-child)::before, .stepper-horizontal li:not(:last-child)::after{
+    background-color:#e6e6e6!important;
+}
+.btn-primary{
+    background-color:rgba(0, 0, 0, 0)!important;
+    border-width:1px;
+    border-color:#e6e6e6;
+    border-style:solid;
+}
+.btn-primary:hover{
+    border-color:white;
+}
+.btn-primary.dropdown-toggle{
+    background-color:rgba(0, 0, 0, 0)!important;
+
+}
+.btn-primary:not([disabled]):not(.disabled):active, .show > .btn-primary.dropdown-toggle, .btn-primary.dropdown-toggle:focus, .btn-primary.dropdown-toggle:hover{
+    background-color: #e6e6e6!important;
+    border-color:white;
+    color:black!important;
+}
+input:disabled{
+    border-width:0;
+}
+
+input:focus{
+    background-color:rgba(0, 0, 0, 0)!important;
+}
+textarea:focus{
+    background-color:rgba(0, 0, 0, 0)!important;
+}
+#button-send{
+    background-color:rgba(0, 0, 0, 0)!important;
+}
+input{
+    color:white!important;
+}
+textarea{
+   color:white!important;
+}
+img{
+    opacity:80%;
+}
+.btn-warning{
+    background-color:rgba(0, 0, 0, 0)!important;
+    color:white!important;
+    border-style:solid;
+    border-width:1px;
+    border-color:white;
+}
+.dropdown-item:hover{
+    color:black!important;
+}
+
+.mobile-nav a.active{
+    background-color:#222!important;
+    border-width:1px;
+    border-color:#e6e6e6;
+    border-style:solid;
+}
+.bell-ring-notif{
+    content: url(https://akademis.maung.id/img/bell-dark.png)!important ;
+}
+.red-notif.bell-ring-notif{
+    content: url(https://akademis.maung.id/img/bell-notif-dark.png)!important ;
+}
+.update-profile-icon{
+    height:22.5px;
+    content: url(https://akademis.maung.id/img/user-dark.png)!important;
+    color:#e6e6e6!important;
+}
+
+.logout-icon{
+    height:22.5px;
+    content: url(https://akademis.maung.id/img/logout-dark.png)!important;
+    color:#e6e6e6!important;
+}
+.list-group-item:hover{
+    background-color:#222;
+}
+.forum-jawab-love{
+    background-color:#222!important;
+    border-color:#e6e6e6!important;
+}
+.navbar{
+    box-shadow:0 0 0 0 !important;
+}

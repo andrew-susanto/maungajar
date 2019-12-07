@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@font-face {
+    font-family: Slack-Larsseit;
+    src: local("☺"), url("https://akademis.maung.id/css/font/larsseit-bold.woff2") format("woff2"), url("http://localhost/belajarmaung/css/font/larsseit-bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+    unicode-range: U+0-F8FE, U+F900-FFFF;
+  }
+  @font-face {
+    font-family: Slack-Circular-Pro;
+    src: local("☺"), url("https://akademis.maung.id/css/font/circular-pro-book.woff2") format("woff2"), url("https://akademis.maung.id/css/font/circular-pro-book.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+    unicode-range: U+0-F8FE, U+F900-FFFF;
+  }
+
+  @font-face {
+    font-family: Slack-Circular-Pro;
+    src: local("☺"), url("https://akademis.maung.id/css/font/circular-pro-bold.woff2") format("woff2"), url("https://akademis.maung.id/css/font/circular-pro-bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+    unicode-range: U+0-F8FE, U+F900-FFFF;
+  }
+h1{
+    font-size: 36px;
+}
+h1,h2,h3,h4,h5{
+    font-family: Slack-Larsseit;
+}
+p,a,.default-font{
+    font-family: Poppins,Slack-Circular-Pro;
+    font-weight: 400;
+}
+h2{
+    font-weight: 700;
+}
+h4{
+    font-weight:500;
+}
+.card-title{
+    font-weight: 600!important;
+    font-size: 1.5rem!important;
+}
+
+.home{
+    padding-top:125px
+}
+.container{
+    padding-right:100px;    
+}
+
+.front-logo{
+    height: 90px;
+    padding: 10px
+
+}
+.main-logo{
+    width:17vw;
+    padding-right:25px;
+}
+.nav-item{
+    font-size:21px;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    padding-right:2rem!important;
+    padding-left:1rem!important;
+}
+.login-section{
+    padding:10px;
+}
+.disclaimer{
+    padding-top:15px
+}
+.disclaimer-text{
+    text-align:center;
+}
+.dropdown-toggle::after{
+    display:none;
+}
+.logout-button:active{
+    background-color:red;
+}
+
+.main-content{
+    padding-top:35px;
+    padding-bottom:50px;
+}
+
+ul.stepper{
+    padding:1rem;
+    padding-top:0px;
+}
+
+ul.stepper li.completed a .circle{
+    background-color:#00c851!important;
+}
+.name-icon{
+    padding: 0 0;
+    height:3vw;
+    width:3vw;
+    font-size:2vw;
+    margin-top:1.3vw;
+  }
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+.card {
+    display: inline-block;
+    width:100%;
+    height:100%;
+    border-radius:25px!important;
+    padding:15px;
+}
+  
+
+.form-button{
+    font-size:18px!important;
+    font-weight:600;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.card-text{
+   white-space: normal; 
+}
+
+.h-scroll{
+    margin:12px;
+    width:30%;
+    height:100%;
+}
+.col-form-label{
+    font-weight: 600;
+}
+.status-cancelled{
+    color:red;
+    font-weight: 600;
+}
+.status-normal{
+    color:green;
+    font-weight: 600;
+}
+.status-done{
+    color:orange;
+    font-weight: 600;
+}
+
+.iframe-chat{
+    border:0;
+    width:70%;
+    height:400px;
+}
+.chat-history{
+    padding-bottom : 40px;
+}
+
+.chat-bubble-left{
+    float:left;
+    text-align: left;
+    left:5px;
+    width:auto;
+    max-width: 70%;
+    height: auto;
+    word-wrap: normal;
+    margin:10px;
+    margin-top:0px;
+    margin-left:5px;
+    padding:5px!important;
+    border-radius:10px!important;
+}
+.chat-bubble-right{
+    float:right;
+    text-align: right;
+    right:5px;
+    width:auto;
+    max-width: 70%;
+    height: auto;
+    word-wrap: normal;
+    margin:10px;
+    margin-top:0px;
+    margin-right:5px;
+    padding:5px!important;
+    border-radius:10px!important;
+}
+.chat-body{
+    padding-top: 5px;
+    padding-bottom:13px;
+}
+
+#button-send{
+    background:white;
+    border-radius:5rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+#button-send:hover{
+    background:grey;
+}
+
+#chat{
+    border-radius: 5rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.mobile-nav {
+    background-color: #fafafa;
+    overflow: hidden;
+    position: fixed;
+    bottom: 15px;
+    width: 90%;
+    display:none;
+    box-shadow: 0px 0px 8px grey;
+    border-radius:30px;
+    font-weight: 600;
+    height:60px;
+    left:5%;
+  }
+.navbar{
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+}
+.dropdown-menu{
+    border-radius:15px;
+}
+  
+  /* Style the links inside the navigation bar */
+  .mobile-nav a {
+    float: left;
+    display: block;
+    color: #707070;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    width:33.33%;
+    padding-left:5vw;
+    padding-right:5vw;
+    
+  }
+  
+  /* Change the color of links on hover */
+  .mobile-nav a:hover {
+    background-color: #ddd;
+    color: grey;
+  }
+  
+  /* Add a color to the active/current link */
+  .mobile-nav a.active {
+    background-color: #c2c2c2;
+    color:black;
+  }
+
+/* Dark Mode */
+.switch {
+    align-self: flex-end;
+}
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6!important;
+    border-color: #e6e6e6;
+}
+
+.btn-danger.dropdown-toggle.notif-icon{
+    background-color:rgba(0, 0, 0, 0)!important;
+    border-width: 0px!important;
+    box-shadow:0 0 0 0 !important;
+}
+
+.btn-danger.dropdown-toggle.notif-icon:focus, .btn-danger.dropdown-toggle.notif-icon:hover{
+    background-color:rgba(0, 0, 0, 0)!important;
+    box-shadow:0,0,0,0 !important;
+}
+.bell-ring-notif{
+    height:2.5vw;
+}
+.dropdown-item:active{
+    color:white!important;
+}
+
+.bell-ring-notif{
+    content: url(https://akademis.maung.id/img/bell.png) ;
+}
+.red-notif.bell-ring-notif{
+    content: url(https://akademis.maung.id/img/bell-notif.png) ;
+}
+
+.update-profile-icon{
+    position:inline;
+    height:22.5px;
+    content: url(https://akademis.maung.id/img/user.png)!important;
+}
+
+.logout-icon{
+    position:inline;
+    height:22.5px;
+    content: url(https://akademis.maung.id/img/logout.png)!important;
+}
+
+.clear-notif{
+    color:#2962ff!important;
+}
+
+.sortcourse{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.item-course-list{
+    margin-top:20px;
+    margin-bottom:60px;
+}
+.disabled{
+    color:gray !important;
+}
+.forum-new-thread{
+    margin-left:15px;
+    width:50%;
+}
+.forum-thread-list{
+    width:50%;
+}
+.thread-question{
+    font-family: 'Montserrat', sans-serif;
+    font-size:19px;
+    margin-top:8px;
+    line-height: 150%;
+    font-weight:500;
+}
+.forum-thread-question{
+    max-height:120px;
+    overflow:hidden;
+}
+
+.forum-jawab-button{
+    padding:10px;
+    font-size:14px;
+    font-weight:600;
+    background-color:#2196f3!important;
+}
+.forum-jawab-love{
+    padding:10px;
+    font-size:14px;
+    font-weight:600;
+    background-color:white!important;
+    color: #ef5350 !important;
+    font-family: Poppins,Slack-Circular-Pro;
+}
+.forum-jawab-love:hover{
+    padding:10px;
+    font-size:14px;
+    font-weight:600;
+    background-color:#ff867c!important;
+    color:white!important;
+}
+.list-group .list-group-item.forum-jawab-item{
+    padding:30px!important;
+}
+.list-group .list-group-item.forum-jawab-item:first-child{
+    border-top-left-radius: 20px!important;
+    border-top-right-radius: 20px!important;
+}
+.list-group .list-group-item.forum-jawab-item:last-child{
+    border-bottom-left-radius:20px!important;
+    border-bottom-right-radius:20px!important;
+}
+.forum-solved-badges{
+    padding:10px;
+    font-size:14px;
+    font-weight:600;
+    background-color:#00c853!important;
+}
+.forum-thread-item{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:35px;
+    border-radius:20px;
+}
+
+.forum-thread-page{
+    width:60%;
+}
+.forum-question-footer{
+    font-size:14px;
+    font-weight:500;
+}
+.forum-course-header{
+    font-weight: 900!important;
+    font-size:14px;
+    font-family: Poppins,Slack-Circular-Pro;
+}
+
+.login-main-button{
+    font-size:18px;
+    border-radius:10px;
+    font-weight:600;
+    background-color:#ffca28 !important;
+    color:black!important;
+    padding-left:40px;
+    padding-right:40px;
+    margin-top:20px;
+    
+}
+.card.h-scroll{
+    border-radius:25px!important;
+}
+.daftar-button{
+    font-weight: 700!important;
+    font-size: 15px!important;
+    border-radius: 7px!important;
+    padding-top: 0.8rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+    padding-bottom: 0.8rem;
+}
+#sortby{
+    width:25%;
+}
+.list-group .list-group-item:last-child{
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+}
+.list-group .list-group-item:first-child{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+}
+
+@media (max-width:500px){
+    h1{
+        font-size:8vw;
+    }
+    .front-logo{
+        height: 20vw;
+        width:auto;
+    }
+    .main-logo{
+        width:40vw!important;
+        padding-right:0px;
+    }
+    .navbar-toggler{
+        display:none;
+    }
+    .mobile-nav{
+        display:inline;
+    }
+    .container{
+        padding-right:15px;
+    }
+    .main-content{
+        padding-bottom:150px;
+    }
+    .h-scroll{
+        margin:12px;
+        width:75%;
+    }
+    .name-icon{
+        padding: 0px;
+        font-size: 25px;
+        margin-top:1.3vh;
+        height:13vw;
+        width: 13vw;
+    }
+    .bell-ring-notif{
+        width:9vw;
+        height:auto;
+    }
+    .row{
+        margin-right:0px;
+    }
+    .iframe-chat{
+        width:95%;
+        height:80vh;
+    }
+    .blokir-button{
+        font-size:11px!important;
+    }
+    .konfirmasilist{
+        flex-direction: column!important;
+    }
+    .konfirmasicontent{
+        width:100%;
+    }
+    .forum-new-thread{
+        margin-left:15px;
+        width:100%;
+    }
+    .forum-thread-list{
+        width:100%
+    }
+    .forum-thread-page{
+        width:100%;
+    }
+    #sortby{
+        width:50%;
+    }
+}
