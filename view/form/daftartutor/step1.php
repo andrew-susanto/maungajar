@@ -22,7 +22,7 @@ foreach($terdaftar as $dataterdaftar){
   array_push($kelas_terdaftar,$dataterdaftar['id_kelas']);
 }
 
-if(strtotime('now')<strtotime('sunday this week')){
+if(strtotime('now')<strtotime('+ 9 hours',strtotime('sunday this week'))){
   $closetime = strtotime('+ 24 hours', strtotime( 'sunday this week'));
 }
 else{

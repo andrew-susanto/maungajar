@@ -21,7 +21,7 @@ if(isset($_SESSION['mhs_id'])){
             $res=$stmt->fetchAll();
             $kelas=$res[0];
 
-            if(strtotime('now')<strtotime('sunday this week')){
+            if(strtotime('now')<strtotime('+ 9 hours', strtotime('sunday this week'))){
             $closetime = strtotime('+ 24 hours', strtotime( 'sunday this week'));
             }
             else{
