@@ -6,6 +6,7 @@ This Website is only for Faculty of Computer Science Universitas Indonesia stude
 
 Important Update :
 - [ ] Show class available for next week for coordinator
+- [ ] Add tutor star review
 
 Future Update :
 - [ ] Include every student task deadline
