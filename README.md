@@ -6,9 +6,10 @@ This Website is only for Faculty of Computer Science Universitas Indonesia stude
 
 Important Update :
 - [ ] Show class available for next week for coordinator
-- [ ] Add tutor star review
+- [ ] Resolve bug (Can make class after Sunday 9AM)
 
 Future Update :
+- [ ] Add tutor star review
 - [ ] Include every student task deadline
 - [ ] Include every student task progress
 - [ ] Include every student exam schedule (UAS 2019) & seat number
